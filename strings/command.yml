@@ -1,98 +1,98 @@
 # Bot Commands
-PING_COMMAND : ["ireng", "kontol"]
-START_COMMAND : ["stres", "mstres"]
-HELP_COMMAND : ["babi"]
-SETTINGS_COMMAND : ["setan", "setann"]
-RELOAD_COMMAND : ["admincache", "reload"]
-GSTATS_COMMAND : ["gstats", "globalstats"]
-STATS_COMMAND : ["stats"]
+PING_COMMAND : ["xping", "xalive"]
+START_COMMAND : ["xstart", "xmstart"]
+HELP_COMMAND : ["xhelp"]
+SETTINGS_COMMAND : ["xsettings", "xset"]
+RELOAD_COMMAND : ["xadmincache", "xreload"]
+GSTATS_COMMAND : ["xgstats", "zglobalstats"]
+STATS_COMMAND : ["xstats"]
 LANGUAGE_COMMAND : ["lundlang", "lavdalele", "langlund"]
 
 # Play Commands
-PLAY_COMMAND : ["rach", "vrach", "crach", "cvravh", "rachforce", "vplayforce", "cplayforce", "cvplayforce"]
-PLAYMODE_COMMAND : ["playmode", "mode"]
-CHANNELPLAY_COMMAND : ["channelplay"]
-STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+PLAY_COMMAND : ["xplay", "xvplay", "xcplay", "xcvplay", "xforce", "xvplayforce", "cplayforce", "cvplayforce"]
+PLAYMODE_COMMAND : ["xplaymode", "xmode"]
+CHANNELPLAY_COMMAND : ["xchannelplay"]
+STREAM_COMMAND : ["xstream", "xcstream", "xstreamforce"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist", "delplaylist"]
+PLAYLIST_COMMAND : ["xplaylist"]
+DELETEPLAYLIST_COMMAND : ["xdeleteplaylist", "delplaylist"]
 
 
 # Tools
-QUEUE_COMMAND : ["queue", "cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video", "vsong"]
-LYRICS_COMMAND : ["lyrics", "lyric"]
+QUEUE_COMMAND : ["xqueue", "xcqueue", "xplayer", "xcplayer", "xplaying", "xcplaying"]
+SONG_COMMAND : ["xsong", "xvideo", "xvsong"]
+LYRICS_COMMAND : ["xlyrics", "xlyric"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth"]
-UNAUTH_COMMAND : ["unauth"]
-AUTHUSERS_COMMAND : ["authusers", "authlist"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-STOP_COMMAND : ["entd", "entdf", "centd", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
-SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["reboot"]
+AUTH_COMMAND : ["xauth"]
+UNAUTH_COMMAND : ["xunauth"]
+AUTHUSERS_COMMAND : ["xauthusers", "xauthlist"]
+PAUSE_COMMAND : ["xpause", "xcpause"]
+RESUME_COMMAND : ["xresume", "xcresume"]
+STOP_COMMAND : ["xstop", "xend", "xcend", "xvend"]
+SKIP_COMMAND : ["xskip", "xcskip"]
+SHUFFLE_COMMAND : ["xshuffle", "zcshuffle"]
+LOOP_COMMAND : ["xloop", "xcloop"]
+SEEK_COMMAND : ["xseek", "xcseek", "xseekback", "xcseekback"]
+RESTART_COMMAND : ["xreboot"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "addrandi", "randi"]
-DELSUDO_COMMAND : ["delsudo", "rmsudo", "bsdk", "bhakkbsdk"]
-SUDOUSERS_COMMAND : ["sudolist", "listsudo", "sudoers", "sudo"]
+ADDSUDO_COMMAND : ["xaddsudo", "xaddrandi", "xrandi"]
+DELSUDO_COMMAND : ["xdelsudo", "xrmsudo", "xbsdk", "xbhakkbsdk"]
+SUDOUSERS_COMMAND : ["xsudolist", "xlistsudo", "xsudoers", "xsudo"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "gcast"]
+BROADCAST_COMMAND : ["xbroadcast", "xgcast"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
-WHITELISTCHAT_COMMAND : ["whitelistchat", "unblchat", "wlchat"]
-BLACKLISTEDCHAT_COMMAND : ["blacklistedchat", "blchats"]
+BLACKLISTCHAT_COMMAND : ["xblacklistchat", "xblchat"]
+WHITELISTCHAT_COMMAND : ["xwhitelistchat", "xunblchat", "xwlchat"]
+BLACKLISTEDCHAT_COMMAND : ["xblacklistedchat", "xblchats"]
 
 # Video Calls Command
-VIDEOLIMIT_COMMAND : ["set_video_limit"]
-VIDEOMODE_COMMAND : ["videomode"]
+VIDEOLIMIT_COMMAND : ["xset_video_limit"]
+VIDEOMODE_COMMAND : ["xvideomode"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
-LOGGER_COMMAND : ["logger"]
+MAINTENANCE_COMMAND : ["xmaintenance"]
+LOGGER_COMMAND : ["xlogger"]
 
 #Heroku
-GETLOG_COMMAND : ["get_log", "logs", "getlog", "log"]
-GETVAR_COMMAND : ["get_var", "getvar", "showvar"]
-DELVAR_COMMAND : ["del_var", "delvar"]
-SETVAR_COMMAND : ["set_var", "setvar", "addvar"]
-USAGE_COMMAND : ["usage"]
-VARS_COMMAND : ["vars", "config"]
+GETLOG_COMMAND : ["xget_log", "xlogs", "xgetlog", "xlog"]
+GETVAR_COMMAND : ["xget_var", "xgetvar", "xshowvar"]
+DELVAR_COMMAND : ["xdel_var", "xdelvar"]
+SETVAR_COMMAND : ["xset_var", "xsetvar", "xaddvar"]
+USAGE_COMMAND : ["xusage"]
+VARS_COMMAND : ["xvars", "xconfig"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update", "gitpull"]
-REBOOT_COMMAND : ["restart"]
-AUTOEND_COMMAND : ["autoend"]
+UPDATE_COMMAND : ["xupdate", "xgitpull"]
+REBOOT_COMMAND : ["xrestart"]
+AUTOEND_COMMAND : ["xautoend"]
 
 #Private Bot Mode
-AUTHORIZE_COMMAND : ["authorize"]
-UNAUTHORIZE_COMMAND : ["unauthorize"]
-AUTHORIZED_COMMAND : ["authorized"]
+AUTHORIZE_COMMAND : ["xauthorize"]
+UNAUTHORIZE_COMMAND : ["xunauthorize"]
+AUTHORIZED_COMMAND : ["xauthorized"]
 
 #Block Users Command
-BLOCK_COMMAND : ["block"]
-UNBLOCK_COMMAND : ["unblock"]
-BLOCKED_COMMAND : ["blockedusers", "blocked", "blusers"]
+BLOCK_COMMAND : ["xblock"]
+UNBLOCK_COMMAND : ["xunblock"]
+BLOCKED_COMMAND : ["xblockedusers", "xblocked", "xblusers"]
 
 #sPEEDTEST
-SPEEDTEST_COMMAND : ["speedtest", "spt", "stest", "speedt"]
+SPEEDTEST_COMMAND : ["xspeedtest", "xspt", "xstest", "xspeedt"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["activevoice", "activevc"]
-ACTIVEVIDEO_COMMAND : ["activevideo", "activev"]
+ACTIVEVC_COMMAND : ["xactivevoice", "xactivevc"]
+ACTIVEVIDEO_COMMAND : ["xactivevideo", "xactivev"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban", "gandban", "gandfaadban", "globalban"]
-UNGBAN_COMMAND : ["ungban", "gandback", "globalunban"]
-GBANNED_COMMAND : ["gbannedusers", "gbanlist", "gbanned"]
+GBAN_COMMAND : ["xgban", "xgandban", "xgandfaadban", "xglobalban"]
+UNGBAN_COMMAND : ["xungban", "xgandback", "xglobalunban"]
+GBANNED_COMMAND : ["xgbannedusers", "xgbanlist", "xgbanned"]
