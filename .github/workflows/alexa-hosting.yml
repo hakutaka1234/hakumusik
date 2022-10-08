@@ -26,8 +26,8 @@ jobs:
            echo "https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@github.com" > ~/.git-credentials
        - name: cloning repository
          continue-on-error: true
-
-           git clone https://hakutaka1234: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@github.com/hakutaka1234/hakumusic alexa
+         run: |
+          git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.GIT_REPO }} alexa
        - name: running alexa-hosting server
          timeout-minutes: 350
          continue-on-error: true
