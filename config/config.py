@@ -14,10 +14,9 @@ API_ID = int(getenv("API_ID", "17278438"))
 
 API_HASH = getenv("API_HASH", "7886b64c08117902bf1aaff07280b512")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5458348883:AAEdl6JsMgTHUS20kGjFlllTV58MZx_CvtM")
+BOT_TOKEN = getenv("BOT_TOKEN", "5622516770:AAFZ3jZV0WU1fFY5GpNF1ba2GPg_4VTpDN8")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://diaapitubot:diaapitubot@rachmadalfio.qwqyflg.mongodb.net/?retryWrites=true&w=majority")
-
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://diaapitubot:eNeRA310798@rachmadalfio.qwqyflg.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(
 
     getenv("DURATION_LIMIT", "300")
@@ -32,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001686544997"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HakutakaMusicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "RoychoManageBot")
 
 OWNER_ID = list(
 
@@ -62,7 +61,7 @@ SUPPORT_CHANNEL = getenv(
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/alivenotalliance")
+    "SUPPORT_GROUP", "https://t.me/evzesda")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -74,7 +73,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "False")
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", "True")
 
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
@@ -112,7 +111,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION1", "BQAh7TKK57UjGshuCAYO3D9w4HwyTOw094-fYM0xIxOzBuGw2iW9Wn6gz7qpetbHyXvdU4l7OvOaJw5x1P0KOtA_ZcFrOKgaWo5tLb1f8XSRNzl6zOWBHz6Qvt1sX9MfHVliekg-68UxSMdXNbwmUaLGE9SmJwulR4OEsc0Q81BliJoHKVrPMZV7H2ExxYBaWElW6B-D_wPIrxpNbBltNMDrFpSPQHiQHEbQXUCt9QJfI_OcALfOUNiqedUk8SBiVI8WT7qkTslyK1MFqbtbcgHEKbbf7JUzInxUxUeAbp-jGCAv0F1TBzKRk4uK5l_I480TNmc5c-4laNML6UUomZErX7qoDgA")
+STRING1 = getenv("STRING_SESSION1", "QA1wLJ1V6kPGxsaCoptdIeLUvCbQQUWb2PiLe7yi_cLN8hCJWMgqBSp1H4CJvvME70z7kgEQ-YUuKHiUVKef_BgMGhqEtfAee4I6oo4zYeW6KwlLPcixBbQie39Vn4B7_Zb331hyzx8rFQ3cUHPAXiikkazLpg9a5uKsP5Azrl9EBskIdLfgC8a4L21PrsZaGRhD8tpY5cIAIqkaDS_hYT1y_zIxc8KuxotgCmw7Y9mf8_IgQpTYDZMjK4KfoPLu3jlRxhRu_58r2wYzNEj_1thFc4MuoZn74w4XjQoJFnWaOu0SmD0L-naQ8psf1lD0EsS9wh1-nxMeJWRJogkrEu6AAAAAF-6qA4A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
